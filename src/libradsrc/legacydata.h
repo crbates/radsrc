@@ -41,7 +41,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define LEGACY_H_INCLUDE
 
 #include <vector>
-#include <string>
+#include <cstring>
 
 namespace radsrc {
    struct CLegacyGamma {

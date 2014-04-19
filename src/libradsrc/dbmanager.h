@@ -34,6 +34,8 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "porting.h"
 #include <string>
 #include <map>
+#include <stdlib.h>
+#include <stdio.h>
 
 namespace radsrc
 {
