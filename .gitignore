@@ -22,3 +22,4 @@
 *.cog
 
 src/radsrc/radsrc
+bin/radsrc
