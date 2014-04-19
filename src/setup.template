@@ -1,0 +1,13 @@
+# source setup
+#
+# Execute the correct setup script
+#
+
+cd LOCAL_DIR
+
+setenv test_if_this_is_csh 2>/dev/null \
+&& setenv SETUP_SHELL csh || export SETUP_SHELL=sh
+
+source setup.$SETUP_SHELL `/bin/pwd`
+
+cd - > /dev/null

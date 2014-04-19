@@ -1,0 +1,7 @@
+#
+# This will be executed from one directory above this
+#
+setup:
+	@cat src/setup.template | sed s?LOCAL_DIR?$(CURDIR)?g > setup
+
+.PHONY: setup
